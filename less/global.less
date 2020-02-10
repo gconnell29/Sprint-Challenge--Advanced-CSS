@@ -12,9 +12,19 @@ html, body {
   color: @main-font-color;
 }
 
+body {
+  padding: 0 20px;
+}
+
 h1, h2, h3, h4, h5 {
   font-family: 'Russo One', sans-serif;
   color: @header-font-color;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 20px 0;
+  text-align: center;
 }
 
 h2 {
@@ -31,8 +41,6 @@ p {
 }
 
 .container {
-  max-width: 800px;
+  .device-view(800px);
   width: 100%;
-  margin: 0 auto;  
 }
-

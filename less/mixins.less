@@ -1,1 +1,20 @@
 // Mixins Here
+
+.device-view(@screen) {
+  max-width: @screen;
+  margin: 0 auto;
+}
+
+.edge-curve(@radius) {
+  border-radius: @radius;
+}
+
+.signup-btn(@bg-color, @text-color) {
+  display: inline;
+  padding: 7px 16px;
+  border-radius: 5px;
+  font-size: 1.9em;
+  font-weight: bold;
+  background-color: @bg-color;
+  color: @text-color;
+}
