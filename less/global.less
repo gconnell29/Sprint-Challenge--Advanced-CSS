@@ -12,9 +12,19 @@ html, body {
   color: @main-font-color;
 }
 
+body {
+  padding: 0 20px;
+}
+
 h1, h2, h3, h4, h5 {
   font-family: 'Russo One', sans-serif;
   color: @header-font-color;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 20px 0;
+  text-align: center;
 }
 
 h2 {
@@ -33,6 +43,18 @@ p {
 .container {
   max-width: 800px;
   width: 100%;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
+nav {
+  display: flex;
+  width: 380px;
+  margin: 0 auto;
+  justify-content: space-between;
+  a {
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #454A59;
+  }
+}
